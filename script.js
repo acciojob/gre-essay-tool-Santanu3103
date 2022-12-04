@@ -5,7 +5,7 @@ function countWord() {
     let counter = 0;
     let arrayOfWords = sentence.split(' ');
 
-    words = arrayOfWords.filter( word => word!=='');
+    words = arrayOfWords.filter( word => word!==''||word!=='.'||word!==','||word!=='\''||word!=='\"' );
     
     words.forEach( word => counter++);
 

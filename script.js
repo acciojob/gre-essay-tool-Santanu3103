@@ -11,5 +11,5 @@ function countWord() {
 
     console.log(counter);
     display = document.getElementById("wordCount");
-    display.innerHTML = 'Word Count: '+counter;
+    display.innerHTML =counter;
 }
